@@ -1,4 +1,5 @@
 #include "headfile.h"
+#include "stdio.h"
    
 /*-----------------------------------
           *电感采集变量*

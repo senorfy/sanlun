@@ -1,0 +1,587 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a a, a, LIC=1WSAR-KLFAM-FZFWU-SV5Z7-C5LIE-F6THH
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\电磁三轮\程序\第十三届电磁三轮最终程序\Projecct\MDK\KEA128.uvprojx
+Project File Date:  12/13/2017
+
+<h2>Output:</h2>
+Rebuild target 'KEA128'
+assembling startup_SKEAZ1284.s...
+compiling system_SKEAZ1284.c...
+compiling misc.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\misc.c: 9 warnings, 0 errors
+compiling common.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\common.c: 9 warnings, 0 errors
+compiling KEA128_adc.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\KEA128_adc.c: 9 warnings, 0 errors
+compiling KEA128_flash.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\KEA128_flash.c: 9 warnings, 0 errors
+compiling KEA128_ftm.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\KEA128_ftm.c: 9 warnings, 0 errors
+compiling KEA128_gpio.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\KEA128_gpio.c: 9 warnings, 0 errors
+compiling KEA128_irq.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\KEA128_irq.c: 9 warnings, 0 errors
+compiling KEA128_kbi.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\KEA128_kbi.c: 9 warnings, 0 errors
+compiling KEA128_pit.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\KEA128_pit.c: 9 warnings, 0 errors
+compiling KEA128_port.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\KEA128_port.c: 9 warnings, 0 errors
+compiling KEA128_uart.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\KEA128_uart.c: 9 warnings, 0 errors
+compiling KEA128_systick.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\KEA128_systick.c: 9 warnings, 0 errors
+compiling KEA128_i2c.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\KEA128_i2c.c: 9 warnings, 0 errors
+compiling KEA128_spi.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\drives\src\KEA128_spi.c: 9 warnings, 0 errors
+compiling font.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\font.c: 9 warnings, 0 errors
+compiling SEEKFREE_18TFT.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_18TFT.c: 9 warnings, 0 errors
+compiling SEEKFREE_FUN.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_FUN.c: 9 warnings, 0 errors
+compiling SEEKFREE_IIC.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_IIC.c: 9 warnings, 0 errors
+compiling SEEKFREE_L3G4200D.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_L3G4200D.c: 9 warnings, 0 errors
+compiling SEEKFREE_MMA8451.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_MMA8451.c: 9 warnings, 0 errors
+compiling SEEKFREE_MPU6050.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_MPU6050.c: 9 warnings, 0 errors
+compiling SEEKFREE_NRF24L01.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_NRF24L01.c: 9 warnings, 0 errors
+compiling SEEKFREE_OLED.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.c: 10 warnings, 0 errors
+compiling SEEKFREE_TSL1401.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_TSL1401.c: 9 warnings, 0 errors
+compiling isr.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\src\isr.c: 9 warnings, 0 errors
+compiling main.c...
+..\USER\inc\SAN__LUN.h(68): warning:  #1295-D: Deprecated declaration Start_Car - give arg types
+  void    Start_Car();
+..\USER\inc\SAN__LUN.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Speed_Control.h(34): warning:  #1295-D: Deprecated declaration speed_collect_L - give arg types
+  int16       speed_collect_L();                                //左边编码器读数和判方向
+..\USER\inc\Speed_Control.h(35): warning:  #1295-D: Deprecated declaration speed_collect_R - give arg types
+  int16       speed_collect_R();                                //右边编码器读数和判方向
+..\USER\inc\Speed_Control.h(36): warning:  #1295-D: Deprecated declaration get_speed - give arg types
+  void        get_speed();                                     //获取编码器的速度和算出中间速度
+..\USER\inc\Speed_Control.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\inc\Oled_System.h(30): warning:  #1295-D: Deprecated declaration boma_open - give arg types
+  void boma_open();                                  //拨码开关选择显示
+..\USER\inc\Oled_System.h(49): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Libraries\seekfree\SEEKFREE_OLED.h(81): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\src\main.c: 9 warnings, 0 errors
+linking...
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol Oled_Set_Pos_1 (referred from seekfree_oled.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol Oled_WrDat_1 (referred from seekfree_oled.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol Get_AD (referred from isr.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol Reed_End (referred from isr.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol Speed_Control (referred from isr.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol Speed_Control_out (referred from isr.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol Speed_chioce (referred from isr.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol TURN_OUT_DIR (referred from isr.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol get_speed (referred from isr.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol motor_shuchu (referred from isr.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol AD_GET_MAX_MIN (referred from main.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol AD_Init (referred from main.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol Check_Key (referred from main.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol ELSE_Init (referred from main.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol FTM_Init (referred from main.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol Primary_Menu (referred from main.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol Start_Car (referred from main.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol Switch_init (referred from main.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol Uart1_Send_AF (referred from main.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol WU_XIANG_Init (referred from main.o).
+.\Objects\KEA128.axf: Error: L6218E: Undefined symbol Work_choice (referred from main.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 21 error messages.
+".\Objects\KEA128.axf" - 21 Error(s), 235 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\电磁三轮\程序\第十三届电磁三轮最终程序\Projecct\MDK\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM4\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>

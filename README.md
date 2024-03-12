@@ -12,4 +12,4 @@ writable = yes        #可写
 ```bash
 smbpasswd -a <用户名>
 ```
-
+![abc](https://note.youdao.com/s/VZLsEiyx)
